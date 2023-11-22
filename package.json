@@ -1,0 +1,25 @@
+{
+  "name": "advice-generator-app",
+  "version": "1.0.0",
+  "description": "![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildCss": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M0stafa123/advice-generator-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M0stafa123/advice-generator-app/issues"
+  },
+  "homepage": "https://github.com/M0stafa123/advice-generator-app#readme",
+  "dependencies": {
+    "@types/node": "^20.9.4",
+    "typescript": "^5.3.2"
+  }
+}
