@@ -27,7 +27,9 @@
       <h1 class="text-NeonGreen text-sm uppercase tracking-[7px]">
         Advice #<span class="id"></span>
       </h1>
-      <p class="flex-[0.79] text-LightCyan my-4 w-full text-sm md:text-lg">
+      <p
+        class="flex-[0.79] text-LightCyan my-4 w-full text-sm md:text-[28px] leading-relaxed"
+      >
         "<span class="advice w-full">Click The Dice To Genetrate The Advice</span>"
       </p>
       <img
@@ -35,11 +37,16 @@
         src="images/pattern-divider-desktop.svg"
         alt=""
       />
-      <img class="my-4 md:hidden" src="images/pattern-divider-mobile.svg" alt="" />
+      <img
+        class="my-4 md:hidden"
+        draggable="false"
+        src="images/pattern-divider-mobile.svg"
+        alt=""
+      />
       <span
         class="dice cursor-pointer absolute bottom-0 left-1/2 w-10 h-10 rounded-full transform -translate-x-1/2 translate-y-1/2 flex items-center justify-center bg-NeonGreen"
       >
-        <img class="w-4" src="images/icon-dice.svg" alt="" />
+        <img class="w-4" src="images/icon-dice.svg" draggable="false" alt="" />
       </span>
     </main>
     <!-- "Advice text goes here" -->
@@ -48,7 +55,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="https://github.com/M0stafa123">Mostaf Hassan</a>.
     </div>
   </body>
   <script src="dist/index.js"></script>
