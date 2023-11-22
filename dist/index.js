@@ -8,6 +8,5 @@ generate.addEventListener("click", function () {
         .then((data) => {
         adviceId.innerHTML = data.slip.id;
         advice.innerHTML = data.slip.advice;
-        console.log(data.slip);
     });
 });
